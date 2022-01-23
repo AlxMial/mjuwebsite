@@ -1,0 +1,40 @@
+.course-content {
+    border-bottom: 1px solid #ccc;
+}
+.img-subject {
+    object-fit: contain;
+}
+.title-att,
+.attach-list {
+    border-bottom: 1px solid #eeeeee;
+}
+.linkDownload {
+    border-right: 1px solid #ccc;
+    color: #0993ca;
+}
+.fa-file-pdf {
+    color: red;
+}
+.fa-file-word {
+    color: blue;
+}
+.fa-file-excel{
+    color: green;
+}
+
+
+.ReactQuill-Editor{
+    margin: auto;
+  }
+
+  .ReactQuill-Editor   .ql-snow *{
+    box-shadow: none;
+  }
+
+  .ReactQuill-Editor   .ql-container.ql-snow {
+    border:0px;
+  }
+
+  .ReactQuill-Editor .ql-editor{
+    min-height: 0px !important;
+  }

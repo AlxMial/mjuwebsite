@@ -1,0 +1,8 @@
+
+/* home */
+.card-home-top {
+    height: 250px;
+  }
+.headCard {
+    box-shadow: 0px -7px 0px 0px rgba(105, 172, 43, var(--tw-bg-opacity));
+}

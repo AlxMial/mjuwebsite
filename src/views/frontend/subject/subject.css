@@ -1,0 +1,184 @@
+.header-bar {
+    border-bottom: 1px solid #ccc;
+}
+.commentBox{
+    /* margin-top: 40px; */
+    /* max-width: 700px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+    background: #1b212d; */
+  }
+  .post{
+    background: #fff;
+    /* padding: 20px; */
+    border-radius: 20px;
+  }
+  .postBody{
+    display: flex;
+  }
+  .postHeader{
+    display: flex;
+    align-items: center;
+  }
+  .publishDate{
+    color: #787878;
+    margin-left: 15px;
+    font-size: 1.5rem;
+  }
+  .postDesc{
+    margin-top: 15px;
+  }
+  .fa-heart:hover::after{
+    position: absolute;
+      margin-top: -4px;
+      margin-left: -20px;
+      content: "❤";
+      font-size: 24px;
+      opacity: 1;
+      animation: hearts .7s ease;
+    
+  } 
+  @keyframes hearts {
+      0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .postText{
+    font-weight: 500;
+  }
+  .desc{
+    margin-right: 20px;
+  }
+  .comment{
+    padding: 10px;
+    margin: 10px 10px;
+    /* color: #fff; */
+  }
+  .createComment{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeee;
+  }
+  .commentAuthor {
+    font-weight: bold;
+    font-size: 1.5rem;    
+  }
+
+  .commentContent{
+    font-size: 1.5rem;
+  }
+  /* h2{
+    margin:0;
+    margin-bottom: 5px;
+  }
+  h3{
+    margin:0;
+  } */
+  /* input{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid #787878;
+    padding: 5px 5px 5px 10px;
+    transition: 0.2s;
+  }
+  input:focus{
+    outline: none;
+    border: 1px solid #fc6f20;
+  }
+  input::placeholder{
+    color: #bebebe;
+  } */
+  .textComment{
+        margin-top: 10px;
+        border: 1px solid #78787863;
+        padding:20px;
+        transition: 0.2s;
+        box-sizing: border-box;
+        resize: none;
+  }
+  .textComment:focus{
+    outline: none;
+    border: 1px solid #08aff3;
+  }
+  .textComment::placeholder{
+    color: #bebebe;
+  }
+  .btn-comment{
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: #08aff3;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  /* .btn-comment:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+    transition: all .1s linear;
+  } */
+  .btn-comment:focus{
+    outline: none;
+  }
+  .commentPic{
+    max-width: 90px;
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 10px;
+  }
+  .comment{
+    display: flex;
+  }
+  .commentPic{
+    max-width: 65px;
+    max-height: 65px;
+  }
+  .commentHeader{
+    display: flex;
+    align-items: center;
+  }
+
+  .commentBody{
+    max-width: 580px;
+    overflow-wrap: break-word;
+  }
+
+  .subject-content {
+      border: 1px solid #ccc;
+      max-height: 250px;
+      overflow-y: scroll;
+  }
+
+  .subjectName {
+      color: #08aff3;
+  }
+
+  .subjectOfHour {
+      border-bottom: 1px solid #ccc;
+  }
+
+  .ReactQuill-Editor{
+    width: 80%;
+    margin: auto;
+  }
+
+  .ReactQuill-Editor   .ql-snow *{
+    box-shadow: none;
+  }
+
+  .ReactQuill-Editor   .ql-container.ql-snow {
+    border:0px;
+  }
+
+  .ReactQuill-Editor .ql-editor{
+    min-height: 0px !important;
+  }
+
+  .divComment{
+    width: 80%;
+    margin: auto;
+  }
